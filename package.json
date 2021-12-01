@@ -1,28 +1,16 @@
 {
-  "name": "md-loader-2",
-  "version": "0.1.0",
-  "private": true,
+  "name": "md-vue-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0",
-    "highlight.js": "^10.2.1",
-    "markdown-it": "^11.0.1",
-    "markdown-it-emoji": "^2.0.0",
-    "loader-utils": "latest",
-    "loader-utils": "latest"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "vue-loader-v16": "^16.0.0-beta.5.4",
+    "loader-utils": "1.4.0",
+    "uuid": "8.3.2"
+  }
 }
